@@ -1,9 +1,10 @@
 //Connecting the databe
 const { MongoClient } = require('mongodb');
 
+
 const username = "sarju";
 const password = "Sarju@2023";
-const clusterUrl = "cluster0.ri6imyx.mongodb.net";
+const clusterUrl = "cluster0.qajd6dg.mongodb.net";
 const databaseName = "issueTracker";
 const options = "retryWrites=true&w=majority";
 const uri = `mongodb+srv://${encodeURIComponent(username)}:${encodeURIComponent(password)}@${clusterUrl}/${databaseName}?${options}`;
