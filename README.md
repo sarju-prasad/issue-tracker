@@ -1,3 +1,4 @@
 # issue-tracker
-install npm and all dependency npm install
-run this command npm start
+install npm and all dependency-> npm install.
+
+run this command-> npm start
